@@ -22,7 +22,7 @@ const sendMailToUser = async(userMail,token)=>{
     html: `
     <h1>Sistema de gestión (HOLA-VET-ESFOT 🐶 😺)</h1>
     <hr>
-    <a href="https://front-end-d8lh-91rjpear1-josuesalazar7.vercel.app/confirmar/${token}">Clic para confirmar tu cuenta</a>
+    <a href="https://front-end-d8lh.vercel.app//confirmar/${token}">Clic para confirmar tu cuenta</a>
     <hr>
     <footer>Grandote te da la Bienvenida!</footer>
     `
@@ -40,7 +40,7 @@ const sendMailToRecoveryPassword = async(userMail,token)=>{
     html: `
     <h1>Sistema de gestión (VET-ESFOT 🐶 😺)</h1>
     <hr>
-    <a href="https://veterinaria-exam.vercel.app/recuperar-password/${token}">Clic para reestablecer tu contraseña</a>
+    <a href="https://front-end-d8lh.vercel.app//recuperar-password/${token}">Clic para reestablecer tu contraseña</a>
     <hr>
     <footer>Grandote te da la Bienvenida!</footer>
     `
